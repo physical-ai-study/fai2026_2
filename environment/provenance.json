@@ -1,0 +1,13 @@
+{
+  "training_repository": "https://github.com/matsuolab/pai_training",
+  "training_commit": "b4d6b5459066a80433475a83567504988875248a",
+  "lerobot_repository": "https://github.com/huggingface/lerobot.git",
+  "lerobot_commit": "768e36660d1408c71118a2760f831c037fbfa17d",
+  "robot_base_repository": "https://github.com/matsuolab/physicalai_teleop",
+  "robot_base_commit": "0ef2a00fd6d7bb39377969d10f3d26268e447fd9",
+  "final_chunk_size": 128,
+  "final_n_action_steps": 4,
+  "final_model_best_step": 4000,
+  "baseline_for_retraining": "optional; historical baseline weights are not bundled",
+  "clean_machine_validation": "not performed"
+}

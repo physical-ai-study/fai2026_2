@@ -1,0 +1,170 @@
+{
+  "best_step": 4000,
+  "selection_score": 0.4631124656640181,
+  "elapsed_seconds": 252.62263640400033,
+  "baseline_metrics": {
+    "all": {
+      "samples": 807,
+      "arm_rmse_rad": 0.4671988832295767,
+      "gripper_rmse_rad": 0.3243702181341852,
+      "gripper_disagreement": 0.5427509293680297,
+      "hold_pose_arm_rmse_rad": 0.056872800597025534
+    },
+    "active": {
+      "samples": 492,
+      "arm_rmse_rad": 0.5704359707762566,
+      "gripper_rmse_rad": 0.2776899975103081,
+      "gripper_disagreement": 0.40853658536585363,
+      "hold_pose_arm_rmse_rad": 0.07283580297550672
+    },
+    "gripper_transition": {
+      "samples": 87,
+      "arm_rmse_rad": 0.06930931063364026,
+      "gripper_rmse_rad": 0.16213826876571188,
+      "gripper_disagreement": 0.2413793103448276,
+      "hold_pose_arm_rmse_rad": 0.008176803504676037
+    },
+    "closing": {
+      "samples": 46,
+      "arm_rmse_rad": 0.03056058899001843,
+      "gripper_rmse_rad": 0.016983249370535407,
+      "gripper_disagreement": 0.0,
+      "hold_pose_arm_rmse_rad": 8.253050628577324e-05
+    },
+    "approach": {
+      "samples": 240,
+      "arm_rmse_rad": 0.04103731891000026,
+      "gripper_rmse_rad": 0.4280927142289137,
+      "gripper_disagreement": 0.925,
+      "hold_pose_arm_rmse_rad": 0.00013772810528859552
+    },
+    "carry": {
+      "samples": 288,
+      "arm_rmse_rad": 0.10098529041203462,
+      "gripper_rmse_rad": 0.06351883804538332,
+      "gripper_disagreement": 0.03125,
+      "hold_pose_arm_rmse_rad": 0.06194576851850341
+    },
+    "release": {
+      "samples": 279,
+      "arm_rmse_rad": 0.7870059266637632,
+      "gripper_rmse_rad": 0.3775233221785723,
+      "gripper_disagreement": 0.7419354838709677,
+      "hold_pose_arm_rmse_rad": 0.07344842584789235
+    }
+  },
+  "best_metrics": {
+    "all": {
+      "samples": 807,
+      "arm_rmse_rad": 0.03885142782370697,
+      "gripper_rmse_rad": 0.21478867406659732,
+      "gripper_disagreement": 0.3184634448574969,
+      "hold_pose_arm_rmse_rad": 0.056872800597025534
+    },
+    "active": {
+      "samples": 492,
+      "arm_rmse_rad": 0.04635215687545134,
+      "gripper_rmse_rad": 0.1123303295630876,
+      "gripper_disagreement": 0.07113821138211382,
+      "hold_pose_arm_rmse_rad": 0.07283580297550672
+    },
+    "gripper_transition": {
+      "samples": 87,
+      "arm_rmse_rad": 0.012240108565516371,
+      "gripper_rmse_rad": 0.05192998992936174,
+      "gripper_disagreement": 0.0,
+      "hold_pose_arm_rmse_rad": 0.008176803504676037
+    },
+    "closing": {
+      "samples": 46,
+      "arm_rmse_rad": 0.005528736312179975,
+      "gripper_rmse_rad": 0.06981685026182118,
+      "gripper_disagreement": 0.0,
+      "hold_pose_arm_rmse_rad": 8.253050628577324e-05
+    },
+    "approach": {
+      "samples": 240,
+      "arm_rmse_rad": 0.006266581640303051,
+      "gripper_rmse_rad": 0.3588590279710322,
+      "gripper_disagreement": 0.925,
+      "hold_pose_arm_rmse_rad": 0.00013772810528859552
+    },
+    "carry": {
+      "samples": 288,
+      "arm_rmse_rad": 0.050051595361886435,
+      "gripper_rmse_rad": 0.1479322410011255,
+      "gripper_disagreement": 0.12152777777777778,
+      "hold_pose_arm_rmse_rad": 0.06194576851850341
+    },
+    "release": {
+      "samples": 279,
+      "arm_rmse_rad": 0.04178804965637284,
+      "gripper_rmse_rad": 0.008582167623541144,
+      "gripper_disagreement": 0.0,
+      "hold_pose_arm_rmse_rad": 0.07344842584789235
+    },
+    "swing": {
+      "amplitude_relative_error": 0.08305441682524732,
+      "reversal_count_error": 1.0,
+      "rollout_joint_rmse_rad": 0.2334697594245275,
+      "episodes": [
+        {
+          "episode": 1,
+          "start_frame": 886,
+          "teacher_amplitude_rad": 0.8644587993621826,
+          "rollout_amplitude_rad": 0.9308239221572876,
+          "amplitude_relative_error": 0.07677071810023876,
+          "teacher_reversals": 2,
+          "rollout_reversals": 1,
+          "reversal_count_error": 1,
+          "rollout_joint_rmse_rad": 0.3260107934474945,
+          "teacher_turn_frames": [
+            1362,
+            1489
+          ],
+          "rollout_turn_frames": [
+            1246
+          ]
+        },
+        {
+          "episode": 10,
+          "start_frame": 750,
+          "teacher_amplitude_rad": 0.8906798362731934,
+          "rollout_amplitude_rad": 0.7812089920043945,
+          "amplitude_relative_error": 0.12290706470559577,
+          "teacher_reversals": 2,
+          "rollout_reversals": 1,
+          "reversal_count_error": 1,
+          "rollout_joint_rmse_rad": 0.1635051816701889,
+          "teacher_turn_frames": [
+            1131,
+            1254
+          ],
+          "rollout_turn_frames": [
+            1090
+          ]
+        },
+        {
+          "episode": 11,
+          "start_frame": 709,
+          "teacher_amplitude_rad": 0.8044557571411133,
+          "rollout_amplitude_rad": 0.7646468877792358,
+          "amplitude_relative_error": 0.0494854676699074,
+          "teacher_reversals": 2,
+          "rollout_reversals": 1,
+          "reversal_count_error": 1,
+          "rollout_joint_rmse_rad": 0.21089330315589905,
+          "teacher_turn_frames": [
+            1072,
+            1190
+          ],
+          "rollout_turn_frames": [
+            1113
+          ]
+        }
+      ],
+      "evaluation": "late-seeded first-order surrogate; not Gazebo"
+    }
+  },
+  "gazebo_success_rate": "not measured"
+}

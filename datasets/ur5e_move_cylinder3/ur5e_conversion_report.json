@@ -1,0 +1,187 @@
+{
+  "config": {
+    "bag_dir": "/home/ubuntu/dataset/rosbags/move_cylinder3",
+    "dataset_root": "/home/ubuntu/dataset/lerobot_dataset/ur5e_move_cylinder3",
+    "repo_id": "ur5e_move_cylinder3",
+    "robot_type": "ur5e_robotiq_2f85",
+    "task": "move_cylinder",
+    "output_directory": "/home/ubuntu/checkpoints/train/ur5e_move_cylinder_act",
+    "fps": 20,
+    "device": "cpu",
+    "training_steps": 10000,
+    "batch_size": 2,
+    "num_workers": 0,
+    "chunk_size": 128,
+    "n_action_steps": 4,
+    "learning_rate": 0.0001,
+    "seed": 42,
+    "log_freq": 50,
+    "max_state_gap_seconds": 0.5,
+    "gripper_feedback_tolerance_rad": 0.005
+  },
+  "episodes": [
+    {
+      "source": "/home/ubuntu/dataset/rosbags/move_cylinder3/ep0",
+      "frames": 1617,
+      "duration_seconds": 80.8,
+      "arm_commands": 829,
+      "gripper_commands": 2,
+      "gripper_feedback_corrections": 0,
+      "corrected_gripper_raw_range": null,
+      "initial_action": "measured initial joint state before first command"
+    },
+    {
+      "source": "/home/ubuntu/dataset/rosbags/move_cylinder3/ep1",
+      "frames": 1635,
+      "duration_seconds": 81.7,
+      "arm_commands": 826,
+      "gripper_commands": 2,
+      "gripper_feedback_corrections": 0,
+      "corrected_gripper_raw_range": null,
+      "initial_action": "measured initial joint state before first command"
+    },
+    {
+      "source": "/home/ubuntu/dataset/rosbags/move_cylinder3/ep2",
+      "frames": 1574,
+      "duration_seconds": 78.65,
+      "arm_commands": 794,
+      "gripper_commands": 2,
+      "gripper_feedback_corrections": 0,
+      "corrected_gripper_raw_range": null,
+      "initial_action": "measured initial joint state before first command"
+    },
+    {
+      "source": "/home/ubuntu/dataset/rosbags/move_cylinder3/ep3",
+      "frames": 1652,
+      "duration_seconds": 82.55,
+      "arm_commands": 839,
+      "gripper_commands": 2,
+      "gripper_feedback_corrections": 0,
+      "corrected_gripper_raw_range": null,
+      "initial_action": "measured initial joint state before first command"
+    },
+    {
+      "source": "/home/ubuntu/dataset/rosbags/move_cylinder3/ep4",
+      "frames": 1561,
+      "duration_seconds": 78.0,
+      "arm_commands": 793,
+      "gripper_commands": 2,
+      "gripper_feedback_corrections": 0,
+      "corrected_gripper_raw_range": null,
+      "initial_action": "measured initial joint state before first command"
+    },
+    {
+      "source": "/home/ubuntu/dataset/rosbags/move_cylinder3/ep5",
+      "frames": 1479,
+      "duration_seconds": 73.9,
+      "arm_commands": 751,
+      "gripper_commands": 2,
+      "gripper_feedback_corrections": 0,
+      "corrected_gripper_raw_range": null,
+      "initial_action": "measured initial joint state before first command"
+    },
+    {
+      "source": "/home/ubuntu/dataset/rosbags/move_cylinder3/ep6",
+      "frames": 1508,
+      "duration_seconds": 75.35,
+      "arm_commands": 763,
+      "gripper_commands": 2,
+      "gripper_feedback_corrections": 9,
+      "corrected_gripper_raw_range": [
+        -0.013602930068272734,
+        -0.010189886064829068
+      ],
+      "initial_action": "measured initial joint state before first command"
+    },
+    {
+      "source": "/home/ubuntu/dataset/rosbags/move_cylinder3/ep7",
+      "frames": 1548,
+      "duration_seconds": 77.35,
+      "arm_commands": 783,
+      "gripper_commands": 2,
+      "gripper_feedback_corrections": 0,
+      "corrected_gripper_raw_range": null,
+      "initial_action": "measured initial joint state before first command"
+    },
+    {
+      "source": "/home/ubuntu/dataset/rosbags/move_cylinder3/ep8",
+      "frames": 1558,
+      "duration_seconds": 77.85,
+      "arm_commands": 787,
+      "gripper_commands": 2,
+      "gripper_feedback_corrections": 0,
+      "corrected_gripper_raw_range": null,
+      "initial_action": "measured initial joint state before first command"
+    },
+    {
+      "source": "/home/ubuntu/dataset/rosbags/move_cylinder3/ep9",
+      "frames": 1423,
+      "duration_seconds": 71.1,
+      "arm_commands": 719,
+      "gripper_commands": 2,
+      "gripper_feedback_corrections": 0,
+      "corrected_gripper_raw_range": null,
+      "initial_action": "measured initial joint state before first command"
+    },
+    {
+      "source": "/home/ubuntu/dataset/rosbags/move_cylinder3/ep10",
+      "frames": 1376,
+      "duration_seconds": 68.75,
+      "arm_commands": 696,
+      "gripper_commands": 2,
+      "gripper_feedback_corrections": 0,
+      "corrected_gripper_raw_range": null,
+      "initial_action": "measured initial joint state before first command"
+    },
+    {
+      "source": "/home/ubuntu/dataset/rosbags/move_cylinder3/ep11",
+      "frames": 1306,
+      "duration_seconds": 65.25,
+      "arm_commands": 667,
+      "gripper_commands": 2,
+      "gripper_feedback_corrections": 0,
+      "corrected_gripper_raw_range": null,
+      "initial_action": "measured initial joint state before first command"
+    },
+    {
+      "source": "/home/ubuntu/dataset/rosbags/move_cylinder3/ep12",
+      "frames": 1387,
+      "duration_seconds": 69.3,
+      "arm_commands": 704,
+      "gripper_commands": 2,
+      "gripper_feedback_corrections": 0,
+      "corrected_gripper_raw_range": null,
+      "initial_action": "measured initial joint state before first command"
+    },
+    {
+      "source": "/home/ubuntu/dataset/rosbags/move_cylinder3/ep13",
+      "frames": 1473,
+      "duration_seconds": 73.6,
+      "arm_commands": 743,
+      "gripper_commands": 2,
+      "gripper_feedback_corrections": 0,
+      "corrected_gripper_raw_range": null,
+      "initial_action": "measured initial joint state before first command"
+    },
+    {
+      "source": "/home/ubuntu/dataset/rosbags/move_cylinder3/ep14",
+      "frames": 1329,
+      "duration_seconds": 66.4,
+      "arm_commands": 670,
+      "gripper_commands": 2,
+      "gripper_feedback_corrections": 0,
+      "corrected_gripper_raw_range": null,
+      "initial_action": "measured initial joint state before first command"
+    },
+    {
+      "source": "/home/ubuntu/dataset/rosbags/move_cylinder3/ep15",
+      "frames": 1473,
+      "duration_seconds": 73.6,
+      "arm_commands": 751,
+      "gripper_commands": 2,
+      "gripper_feedback_corrections": 0,
+      "corrected_gripper_raw_range": null,
+      "initial_action": "measured initial joint state before first command"
+    }
+  ]
+}

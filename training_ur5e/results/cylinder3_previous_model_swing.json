@@ -1,0 +1,56 @@
+{
+  "amplitude_relative_error": 0.8776345149275048,
+  "reversal_count_error": 2.0,
+  "rollout_joint_rmse_rad": 0.198927640914917,
+  "episodes": [
+    {
+      "episode": 1,
+      "start_frame": 886,
+      "teacher_amplitude_rad": 0.8644587993621826,
+      "rollout_amplitude_rad": 0.09079742431640625,
+      "amplitude_relative_error": 0.8949661633574687,
+      "teacher_reversals": 2,
+      "rollout_reversals": 0,
+      "reversal_count_error": 2,
+      "rollout_joint_rmse_rad": 0.18672265112400055,
+      "teacher_turn_frames": [
+        1362,
+        1489
+      ],
+      "rollout_turn_frames": []
+    },
+    {
+      "episode": 10,
+      "start_frame": 750,
+      "teacher_amplitude_rad": 0.8906798362731934,
+      "rollout_amplitude_rad": 0.10866868495941162,
+      "amplitude_relative_error": 0.8779935499448308,
+      "teacher_reversals": 2,
+      "rollout_reversals": 0,
+      "reversal_count_error": 2,
+      "rollout_joint_rmse_rad": 0.21196763217449188,
+      "teacher_turn_frames": [
+        1131,
+        1254
+      ],
+      "rollout_turn_frames": []
+    },
+    {
+      "episode": 11,
+      "start_frame": 709,
+      "teacher_amplitude_rad": 0.8044557571411133,
+      "rollout_amplitude_rad": 0.11266899108886719,
+      "amplitude_relative_error": 0.8599438314802148,
+      "teacher_reversals": 2,
+      "rollout_reversals": 0,
+      "reversal_count_error": 2,
+      "rollout_joint_rmse_rad": 0.19809263944625854,
+      "teacher_turn_frames": [
+        1072,
+        1190
+      ],
+      "rollout_turn_frames": []
+    }
+  ],
+  "evaluation": "late-seeded first-order surrogate; not Gazebo"
+}

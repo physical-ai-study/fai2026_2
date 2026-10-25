@@ -1,0 +1,30 @@
+ur5e_joint_teleop:
+  ros__parameters:
+    use_sim_time: true
+    joint_names:
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+    arm_controller_topic: /joint_trajectory_controller/joint_trajectory
+    joint_states_topic: /joint_states
+    # Radians; nominal ur_description limits minus the default 0.15 rad margin.
+    joint_lower_limits: [-6.133185307179586, -6.133185307179586, -2.991592653589793, -6.133185307179586, -6.133185307179586, -6.133185307179586]
+    joint_upper_limits: [6.133185307179586, 6.133185307179586, 2.991592653589793, 6.133185307179586, 6.133185307179586, 6.133185307179586]
+    arm_step: 0.025
+    coarse_step: 0.05
+    trajectory_duration: 1.0
+    publish_rate: 20.0
+    state_timeout: 0.5
+    max_target_offset: 0.2
+    # Same six-joint order as joint_names; Gazebo's nominal startup pose.
+    home_positions: [0.0, -1.57, 0.0, -1.57, 0.0, 0.0]
+    gripper_enabled: true
+    gripper_controller_topic: /robotiq_gripper_controller/joint_trajectory
+    gripper_open: 0.0
+    # Calibrated for the centered 40 mm practice cylinder. Do not fully close
+    # position-driven fingers through an object; this is not force control.
+    gripper_close: 0.455
+    gripper_duration: 4.0

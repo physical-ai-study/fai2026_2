@@ -1,0 +1,21 @@
+bag_dir: /home/ubuntu/dataset/rosbags/move_cylinder
+dataset_root: /home/ubuntu/dataset/lerobot_dataset/ur5e_move_cylinder
+repo_id: ur5e_move_cylinder
+robot_type: ur5e_robotiq_2f85
+task: move_cylinder
+output_directory: /home/ubuntu/checkpoints/train/ur5e_move_cylinder_act
+fps: 20
+device: cpu
+training_steps: 10000
+batch_size: 2
+num_workers: 0
+chunk_size: 128
+n_action_steps: 4
+learning_rate: 0.0001
+seed: 42
+log_freq: 50
+# Reject gaps in measured joint feedback instead of inventing long movements.
+max_state_gap_seconds: 0.5
+# Inference: wait briefly for feedback; stop permanently after a prolonged gap.
+feedback_soft_timeout_seconds: 0.5
+feedback_hard_timeout_seconds: 3.0

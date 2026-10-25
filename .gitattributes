@@ -1,0 +1,15 @@
+* text=auto eol=lf
+# Preserve artifact bytes, including JSON metadata, on Windows checkouts.
+models/** -text
+datasets/** -text
+*.py text eol=lf
+*.sh text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+*.safetensors binary
+*.parquet binary
+*.mp4 binary
+*.png binary
+*.docx binary
+*.pdf binary

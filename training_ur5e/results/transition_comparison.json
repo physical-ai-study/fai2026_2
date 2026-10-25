@@ -1,0 +1,679 @@
+{
+  "ur5e_history128_residual_v3": {
+    "metrics": {
+      "all": {
+        "samples": 807,
+        "arm_rmse_rad": 0.03943837347425639,
+        "gripper_rmse_rad": 0.1088229898203343,
+        "gripper_disagreement": 0.06815365551425032,
+        "hold_pose_arm_rmse_rad": 0.05309897161854376
+      },
+      "active": {
+        "samples": 305,
+        "arm_rmse_rad": 0.0406907641094044,
+        "gripper_rmse_rad": 0.026198237598363653,
+        "gripper_disagreement": 0.0,
+        "hold_pose_arm_rmse_rad": 0.08635970534983427
+      },
+      "gripper_transition": {
+        "samples": 95,
+        "arm_rmse_rad": 0.008582381754790733,
+        "gripper_rmse_rad": 0.31157288451693055,
+        "gripper_disagreement": 0.5789473684210527,
+        "hold_pose_arm_rmse_rad": 0.0016271107341757221
+      },
+      "closing": {
+        "samples": 38,
+        "arm_rmse_rad": 0.00428677587686134,
+        "gripper_rmse_rad": 0.4108585452701762,
+        "gripper_disagreement": 0.7894736842105263,
+        "hold_pose_arm_rmse_rad": 4.627404354374385e-05
+      },
+      "approach": {
+        "samples": 240,
+        "arm_rmse_rad": 0.0024178980676397665,
+        "gripper_rmse_rad": 0.12479896549126165,
+        "gripper_disagreement": 0.075,
+        "hold_pose_arm_rmse_rad": 4.5970959915019e-05
+      },
+      "carry": {
+        "samples": 288,
+        "arm_rmse_rad": 0.03669986111729099,
+        "gripper_rmse_rad": 0.11593507182510003,
+        "gripper_disagreement": 0.07291666666666667,
+        "hold_pose_arm_rmse_rad": 0.04259897100830494
+      },
+      "release": {
+        "samples": 279,
+        "arm_rmse_rad": 0.05570954691772429,
+        "gripper_rmse_rad": 0.08355696853281101,
+        "gripper_disagreement": 0.05734767025089606,
+        "hold_pose_arm_rmse_rad": 0.07925981495814975
+      }
+    },
+    "initial_pose_probe": [
+      {
+        "elapsed_s": 0.0,
+        "predicted_gripper_target": -0.0023959260433912277,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.0038901313673704863
+      },
+      {
+        "elapsed_s": 0.5,
+        "predicted_gripper_target": -0.0023360694758594036,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.003857946489006281
+      },
+      {
+        "elapsed_s": 1.0,
+        "predicted_gripper_target": -0.0022759404964745045,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.0038239185232669115
+      },
+      {
+        "elapsed_s": 1.5,
+        "predicted_gripper_target": -0.0022138189524412155,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.00380590558052063
+      },
+      {
+        "elapsed_s": 2.0,
+        "predicted_gripper_target": -0.0021467613987624645,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.003816400421783328
+      },
+      {
+        "elapsed_s": 3.0,
+        "predicted_gripper_target": -0.0020067612640559673,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.003837378928437829
+      },
+      {
+        "elapsed_s": 4.0,
+        "predicted_gripper_target": -0.0018556801369413733,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.0038604140281677246
+      },
+      {
+        "elapsed_s": 6.0,
+        "predicted_gripper_target": -0.0015268129063770175,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.003900792682543397
+      },
+      {
+        "elapsed_s": 10.0,
+        "predicted_gripper_target": -0.0006778733804821968,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.004002435132861137
+      },
+      {
+        "elapsed_s": 20.0,
+        "predicted_gripper_target": 0.0025064749643206596,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.00416794465854764
+      },
+      {
+        "elapsed_s": 30.0,
+        "predicted_gripper_target": 0.00911733228713274,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.0044233412481844425
+      },
+      {
+        "elapsed_s": 60.0,
+        "predicted_gripper_target": 0.002481442876160145,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.007701686583459377
+      }
+    ],
+    "summary": {
+      "best_step": 1500,
+      "selection_score": 0.1495137539297387,
+      "elapsed_seconds": 256.86092976000145,
+      "baseline_metrics": {
+        "all": {
+          "samples": 807,
+          "arm_rmse_rad": 0.09951180973777457,
+          "gripper_rmse_rad": 0.26177790880095936,
+          "gripper_disagreement": 0.379182156133829,
+          "hold_pose_arm_rmse_rad": 0.05309897161854376
+        },
+        "active": {
+          "samples": 305,
+          "arm_rmse_rad": 0.1420407757989211,
+          "gripper_rmse_rad": 0.13865961183261463,
+          "gripper_disagreement": 0.09180327868852459,
+          "hold_pose_arm_rmse_rad": 0.08635970534983427
+        },
+        "approach": {
+          "samples": 240,
+          "arm_rmse_rad": 0.029688658570278116,
+          "gripper_rmse_rad": 0.4184385624417914,
+          "gripper_disagreement": 0.925,
+          "hold_pose_arm_rmse_rad": 4.5970959915019e-05
+        },
+        "carry": {
+          "samples": 288,
+          "arm_rmse_rad": 0.09570197207018116,
+          "gripper_rmse_rad": 0.07062830574720494,
+          "gripper_disagreement": 0.03125,
+          "hold_pose_arm_rmse_rad": 0.04259897100830494
+        },
+        "release": {
+          "samples": 279,
+          "arm_rmse_rad": 0.13575891355889552,
+          "gripper_rmse_rad": 0.20603255331024933,
+          "gripper_disagreement": 0.26881720430107525,
+          "hold_pose_arm_rmse_rad": 0.07925981495814975
+        }
+      },
+      "best_metrics": {
+        "all": {
+          "samples": 807,
+          "arm_rmse_rad": 0.03943837347425639,
+          "gripper_rmse_rad": 0.1088229898203343,
+          "gripper_disagreement": 0.06815365551425032,
+          "hold_pose_arm_rmse_rad": 0.05309897161854376
+        },
+        "active": {
+          "samples": 305,
+          "arm_rmse_rad": 0.0406907641094044,
+          "gripper_rmse_rad": 0.026198237598363653,
+          "gripper_disagreement": 0.0,
+          "hold_pose_arm_rmse_rad": 0.08635970534983427
+        },
+        "approach": {
+          "samples": 240,
+          "arm_rmse_rad": 0.0024178980676397665,
+          "gripper_rmse_rad": 0.12479896549126165,
+          "gripper_disagreement": 0.075,
+          "hold_pose_arm_rmse_rad": 4.5970959915019e-05
+        },
+        "carry": {
+          "samples": 288,
+          "arm_rmse_rad": 0.03669986111729099,
+          "gripper_rmse_rad": 0.11593507182510003,
+          "gripper_disagreement": 0.07291666666666667,
+          "hold_pose_arm_rmse_rad": 0.04259897100830494
+        },
+        "release": {
+          "samples": 279,
+          "arm_rmse_rad": 0.05570954691772429,
+          "gripper_rmse_rad": 0.08355696853281101,
+          "gripper_disagreement": 0.05734767025089606,
+          "hold_pose_arm_rmse_rad": 0.07925981495814975
+        }
+      },
+      "gazebo_success_rate": "not measured"
+    }
+  },
+  "ur5e_history128_hybrid_v4": {
+    "metrics": {
+      "all": {
+        "samples": 807,
+        "arm_rmse_rad": 0.03209077269517586,
+        "gripper_rmse_rad": 0.1144995197185732,
+        "gripper_disagreement": 0.06815365551425032,
+        "hold_pose_arm_rmse_rad": 0.05309897161854376
+      },
+      "active": {
+        "samples": 305,
+        "arm_rmse_rad": 0.039040240391357485,
+        "gripper_rmse_rad": 0.0544337948814795,
+        "gripper_disagreement": 0.0,
+        "hold_pose_arm_rmse_rad": 0.08635970534983427
+      },
+      "gripper_transition": {
+        "samples": 95,
+        "arm_rmse_rad": 0.01625055387960028,
+        "gripper_rmse_rad": 0.3103731081162706,
+        "gripper_disagreement": 0.5789473684210527,
+        "hold_pose_arm_rmse_rad": 0.0016271107341757221
+      },
+      "closing": {
+        "samples": 38,
+        "arm_rmse_rad": 0.0071084822619078185,
+        "gripper_rmse_rad": 0.42581631700593015,
+        "gripper_disagreement": 0.7894736842105263,
+        "hold_pose_arm_rmse_rad": 4.627404354374385e-05
+      },
+      "approach": {
+        "samples": 240,
+        "arm_rmse_rad": 0.006511141063941158,
+        "gripper_rmse_rad": 0.13024542418975915,
+        "gripper_disagreement": 0.075,
+        "hold_pose_arm_rmse_rad": 4.5970959915019e-05
+      },
+      "carry": {
+        "samples": 288,
+        "arm_rmse_rad": 0.03107056396007194,
+        "gripper_rmse_rad": 0.12400253602351272,
+        "gripper_disagreement": 0.07291666666666667,
+        "hold_pose_arm_rmse_rad": 0.04259897100830494
+      },
+      "release": {
+        "samples": 279,
+        "arm_rmse_rad": 0.044110429344605934,
+        "gripper_rmse_rad": 0.08634524625271142,
+        "gripper_disagreement": 0.05734767025089606,
+        "hold_pose_arm_rmse_rad": 0.07925981495814975
+      }
+    },
+    "initial_pose_probe": [
+      {
+        "elapsed_s": 0.0,
+        "predicted_gripper_target": -0.03889751434326172,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.01385712530463934
+      },
+      {
+        "elapsed_s": 0.5,
+        "predicted_gripper_target": -0.03958040475845337,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.01379206869751215
+      },
+      {
+        "elapsed_s": 1.0,
+        "predicted_gripper_target": -0.04026421904563904,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.01372621301561594
+      },
+      {
+        "elapsed_s": 1.5,
+        "predicted_gripper_target": -0.04094356298446655,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.013662365265190601
+      },
+      {
+        "elapsed_s": 2.0,
+        "predicted_gripper_target": -0.04160222411155701,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.01359984464943409
+      },
+      {
+        "elapsed_s": 3.0,
+        "predicted_gripper_target": -0.042912691831588745,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.013476639054715633
+      },
+      {
+        "elapsed_s": 4.0,
+        "predicted_gripper_target": -0.04416707158088684,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.013358392752707005
+      },
+      {
+        "elapsed_s": 6.0,
+        "predicted_gripper_target": -0.046487003564834595,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.01312792208045721
+      },
+      {
+        "elapsed_s": 10.0,
+        "predicted_gripper_target": -0.05064505338668823,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.012640691362321377
+      },
+      {
+        "elapsed_s": 20.0,
+        "predicted_gripper_target": -0.05829906463623047,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.011215467005968094
+      },
+      {
+        "elapsed_s": 30.0,
+        "predicted_gripper_target": -0.06274431943893433,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.00922310445457697
+      },
+      {
+        "elapsed_s": 60.0,
+        "predicted_gripper_target": -0.059983909130096436,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.015623192302882671
+      }
+    ],
+    "summary": {
+      "best_step": 500,
+      "selection_score": 0.46391286822620126,
+      "elapsed_seconds": 257.9603914770014,
+      "baseline_metrics": {
+        "all": {
+          "samples": 807,
+          "arm_rmse_rad": 0.09951180973777457,
+          "gripper_rmse_rad": 0.26177790880095936,
+          "gripper_disagreement": 0.379182156133829,
+          "hold_pose_arm_rmse_rad": 0.05309897161854376
+        },
+        "active": {
+          "samples": 305,
+          "arm_rmse_rad": 0.1420407757989211,
+          "gripper_rmse_rad": 0.13865961183261463,
+          "gripper_disagreement": 0.09180327868852459,
+          "hold_pose_arm_rmse_rad": 0.08635970534983427
+        },
+        "gripper_transition": {
+          "samples": 95,
+          "arm_rmse_rad": 0.08338297908956503,
+          "gripper_rmse_rad": 0.18074822462436405,
+          "gripper_disagreement": 0.3473684210526316,
+          "hold_pose_arm_rmse_rad": 0.0016271107341757221
+        },
+        "closing": {
+          "samples": 38,
+          "arm_rmse_rad": 0.02986007610101458,
+          "gripper_rmse_rad": 0.01888508276390219,
+          "gripper_disagreement": 0.0,
+          "hold_pose_arm_rmse_rad": 4.627404354374385e-05
+        },
+        "approach": {
+          "samples": 240,
+          "arm_rmse_rad": 0.029688658570278116,
+          "gripper_rmse_rad": 0.4184385624417914,
+          "gripper_disagreement": 0.925,
+          "hold_pose_arm_rmse_rad": 4.5970959915019e-05
+        },
+        "carry": {
+          "samples": 288,
+          "arm_rmse_rad": 0.09570197207018116,
+          "gripper_rmse_rad": 0.07062830574720494,
+          "gripper_disagreement": 0.03125,
+          "hold_pose_arm_rmse_rad": 0.04259897100830494
+        },
+        "release": {
+          "samples": 279,
+          "arm_rmse_rad": 0.13575891355889552,
+          "gripper_rmse_rad": 0.20603255331024933,
+          "gripper_disagreement": 0.26881720430107525,
+          "hold_pose_arm_rmse_rad": 0.07925981495814975
+        }
+      },
+      "best_metrics": {
+        "all": {
+          "samples": 807,
+          "arm_rmse_rad": 0.03209077269517586,
+          "gripper_rmse_rad": 0.1144995197185732,
+          "gripper_disagreement": 0.06815365551425032,
+          "hold_pose_arm_rmse_rad": 0.05309897161854376
+        },
+        "active": {
+          "samples": 305,
+          "arm_rmse_rad": 0.039040240391357485,
+          "gripper_rmse_rad": 0.0544337948814795,
+          "gripper_disagreement": 0.0,
+          "hold_pose_arm_rmse_rad": 0.08635970534983427
+        },
+        "gripper_transition": {
+          "samples": 95,
+          "arm_rmse_rad": 0.01625055387960028,
+          "gripper_rmse_rad": 0.3103731081162706,
+          "gripper_disagreement": 0.5789473684210527,
+          "hold_pose_arm_rmse_rad": 0.0016271107341757221
+        },
+        "closing": {
+          "samples": 38,
+          "arm_rmse_rad": 0.0071084822619078185,
+          "gripper_rmse_rad": 0.42581631700593015,
+          "gripper_disagreement": 0.7894736842105263,
+          "hold_pose_arm_rmse_rad": 4.627404354374385e-05
+        },
+        "approach": {
+          "samples": 240,
+          "arm_rmse_rad": 0.006511141063941158,
+          "gripper_rmse_rad": 0.13024542418975915,
+          "gripper_disagreement": 0.075,
+          "hold_pose_arm_rmse_rad": 4.5970959915019e-05
+        },
+        "carry": {
+          "samples": 288,
+          "arm_rmse_rad": 0.03107056396007194,
+          "gripper_rmse_rad": 0.12400253602351272,
+          "gripper_disagreement": 0.07291666666666667,
+          "hold_pose_arm_rmse_rad": 0.04259897100830494
+        },
+        "release": {
+          "samples": 279,
+          "arm_rmse_rad": 0.044110429344605934,
+          "gripper_rmse_rad": 0.08634524625271142,
+          "gripper_disagreement": 0.05734767025089606,
+          "hold_pose_arm_rmse_rad": 0.07925981495814975
+        }
+      },
+      "gazebo_success_rate": "not measured"
+    }
+  },
+  "ur5e_history128_transition_v5": {
+    "metrics": {
+      "all": {
+        "samples": 807,
+        "arm_rmse_rad": 0.03992980937746613,
+        "gripper_rmse_rad": 0.24169716766401922,
+        "gripper_disagreement": 0.32342007434944237,
+        "hold_pose_arm_rmse_rad": 0.05309897161854376
+      },
+      "active": {
+        "samples": 305,
+        "arm_rmse_rad": 0.042599440293646686,
+        "gripper_rmse_rad": 0.10807858013983711,
+        "gripper_disagreement": 0.09180327868852459,
+        "hold_pose_arm_rmse_rad": 0.08635970534983427
+      },
+      "gripper_transition": {
+        "samples": 95,
+        "arm_rmse_rad": 0.0030678169193964805,
+        "gripper_rmse_rad": 0.036732432822547255,
+        "gripper_disagreement": 0.0,
+        "hold_pose_arm_rmse_rad": 0.0016271107341757221
+      },
+      "closing": {
+        "samples": 38,
+        "arm_rmse_rad": 0.0011241508904048865,
+        "gripper_rmse_rad": 0.01566984573284431,
+        "gripper_disagreement": 0.0,
+        "hold_pose_arm_rmse_rad": 4.627404354374385e-05
+      },
+      "approach": {
+        "samples": 240,
+        "arm_rmse_rad": 0.0010303644361165086,
+        "gripper_rmse_rad": 0.42043455595627266,
+        "gripper_disagreement": 0.925,
+        "hold_pose_arm_rmse_rad": 4.5970959915019e-05
+      },
+      "carry": {
+        "samples": 288,
+        "arm_rmse_rad": 0.03545877592184455,
+        "gripper_rmse_rad": 0.12534782768817412,
+        "gripper_disagreement": 0.13541666666666666,
+        "hold_pose_arm_rmse_rad": 0.04259897100830494
+      },
+      "release": {
+        "samples": 279,
+        "arm_rmse_rad": 0.05755807830730135,
+        "gripper_rmse_rad": 0.026383516383784368,
+        "gripper_disagreement": 0.0,
+        "hold_pose_arm_rmse_rad": 0.07925981495814975
+      }
+    },
+    "initial_pose_probe": [
+      {
+        "elapsed_s": 0.0,
+        "predicted_gripper_target": 0.4309329390525818,
+        "would_request_close": true,
+        "arm_max_target_offset_rad": 0.00230910861864686
+      },
+      {
+        "elapsed_s": 0.5,
+        "predicted_gripper_target": 0.43012022972106934,
+        "would_request_close": true,
+        "arm_max_target_offset_rad": 0.002279166132211685
+      },
+      {
+        "elapsed_s": 1.0,
+        "predicted_gripper_target": 0.42929530143737793,
+        "would_request_close": true,
+        "arm_max_target_offset_rad": 0.0022482096683233976
+      },
+      {
+        "elapsed_s": 1.5,
+        "predicted_gripper_target": 0.42846304178237915,
+        "would_request_close": true,
+        "arm_max_target_offset_rad": 0.0022142501547932625
+      },
+      {
+        "elapsed_s": 2.0,
+        "predicted_gripper_target": 0.427620530128479,
+        "would_request_close": true,
+        "arm_max_target_offset_rad": 0.00217807712033391
+      },
+      {
+        "elapsed_s": 3.0,
+        "predicted_gripper_target": 0.42589670419692993,
+        "would_request_close": true,
+        "arm_max_target_offset_rad": 0.002105158753693104
+      },
+      {
+        "elapsed_s": 4.0,
+        "predicted_gripper_target": 0.42409834265708923,
+        "would_request_close": true,
+        "arm_max_target_offset_rad": 0.0020288964733481407
+      },
+      {
+        "elapsed_s": 6.0,
+        "predicted_gripper_target": 0.4201553165912628,
+        "would_request_close": true,
+        "arm_max_target_offset_rad": 0.0018873808439821005
+      },
+      {
+        "elapsed_s": 10.0,
+        "predicted_gripper_target": 0.4105657935142517,
+        "would_request_close": true,
+        "arm_max_target_offset_rad": 0.001679658773355186
+      },
+      {
+        "elapsed_s": 20.0,
+        "predicted_gripper_target": 0.374358206987381,
+        "would_request_close": true,
+        "arm_max_target_offset_rad": 0.0021336751524358988
+      },
+      {
+        "elapsed_s": 30.0,
+        "predicted_gripper_target": 0.3102916479110718,
+        "would_request_close": true,
+        "arm_max_target_offset_rad": 0.003949413076043129
+      },
+      {
+        "elapsed_s": 60.0,
+        "predicted_gripper_target": 0.009650379419326782,
+        "would_request_close": false,
+        "arm_max_target_offset_rad": 0.010053212754428387
+      }
+    ],
+    "summary": {
+      "best_step": 1500,
+      "selection_score": 0.32102904078021316,
+      "elapsed_seconds": 253.58371308799906,
+      "baseline_metrics": {
+        "all": {
+          "samples": 807,
+          "arm_rmse_rad": 0.09951180973777457,
+          "gripper_rmse_rad": 0.26177790880095936,
+          "gripper_disagreement": 0.379182156133829,
+          "hold_pose_arm_rmse_rad": 0.05309897161854376
+        },
+        "active": {
+          "samples": 305,
+          "arm_rmse_rad": 0.1420407757989211,
+          "gripper_rmse_rad": 0.13865961183261463,
+          "gripper_disagreement": 0.09180327868852459,
+          "hold_pose_arm_rmse_rad": 0.08635970534983427
+        },
+        "gripper_transition": {
+          "samples": 95,
+          "arm_rmse_rad": 0.08338297908956503,
+          "gripper_rmse_rad": 0.18074822462436405,
+          "gripper_disagreement": 0.3473684210526316,
+          "hold_pose_arm_rmse_rad": 0.0016271107341757221
+        },
+        "closing": {
+          "samples": 38,
+          "arm_rmse_rad": 0.02986007610101458,
+          "gripper_rmse_rad": 0.01888508276390219,
+          "gripper_disagreement": 0.0,
+          "hold_pose_arm_rmse_rad": 4.627404354374385e-05
+        },
+        "approach": {
+          "samples": 240,
+          "arm_rmse_rad": 0.029688658570278116,
+          "gripper_rmse_rad": 0.4184385624417914,
+          "gripper_disagreement": 0.925,
+          "hold_pose_arm_rmse_rad": 4.5970959915019e-05
+        },
+        "carry": {
+          "samples": 288,
+          "arm_rmse_rad": 0.09570197207018116,
+          "gripper_rmse_rad": 0.07062830574720494,
+          "gripper_disagreement": 0.03125,
+          "hold_pose_arm_rmse_rad": 0.04259897100830494
+        },
+        "release": {
+          "samples": 279,
+          "arm_rmse_rad": 0.13575891355889552,
+          "gripper_rmse_rad": 0.20603255331024933,
+          "gripper_disagreement": 0.26881720430107525,
+          "hold_pose_arm_rmse_rad": 0.07925981495814975
+        }
+      },
+      "best_metrics": {
+        "all": {
+          "samples": 807,
+          "arm_rmse_rad": 0.03992980937746613,
+          "gripper_rmse_rad": 0.24169716766401922,
+          "gripper_disagreement": 0.32342007434944237,
+          "hold_pose_arm_rmse_rad": 0.05309897161854376
+        },
+        "active": {
+          "samples": 305,
+          "arm_rmse_rad": 0.042599440293646686,
+          "gripper_rmse_rad": 0.10807858013983711,
+          "gripper_disagreement": 0.09180327868852459,
+          "hold_pose_arm_rmse_rad": 0.08635970534983427
+        },
+        "gripper_transition": {
+          "samples": 95,
+          "arm_rmse_rad": 0.0030678169193964805,
+          "gripper_rmse_rad": 0.036732432822547255,
+          "gripper_disagreement": 0.0,
+          "hold_pose_arm_rmse_rad": 0.0016271107341757221
+        },
+        "closing": {
+          "samples": 38,
+          "arm_rmse_rad": 0.0011241508904048865,
+          "gripper_rmse_rad": 0.01566984573284431,
+          "gripper_disagreement": 0.0,
+          "hold_pose_arm_rmse_rad": 4.627404354374385e-05
+        },
+        "approach": {
+          "samples": 240,
+          "arm_rmse_rad": 0.0010303644361165086,
+          "gripper_rmse_rad": 0.42043455595627266,
+          "gripper_disagreement": 0.925,
+          "hold_pose_arm_rmse_rad": 4.5970959915019e-05
+        },
+        "carry": {
+          "samples": 288,
+          "arm_rmse_rad": 0.03545877592184455,
+          "gripper_rmse_rad": 0.12534782768817412,
+          "gripper_disagreement": 0.13541666666666666,
+          "hold_pose_arm_rmse_rad": 0.04259897100830494
+        },
+        "release": {
+          "samples": 279,
+          "arm_rmse_rad": 0.05755807830730135,
+          "gripper_rmse_rad": 0.026383516383784368,
+          "gripper_disagreement": 0.0,
+          "hold_pose_arm_rmse_rad": 0.07925981495814975
+        }
+      },
+      "gazebo_success_rate": "not measured"
+    }
+  }
+}
